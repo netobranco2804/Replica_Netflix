@@ -1,0 +1,358 @@
+@media only screen and (min-width: 1000px) {
+    .box1 h1, h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .box2 img{
+        height: 400px;
+    }
+
+    .box3 img{
+        height: 400px;
+    }
+
+    .box4 h1, h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 500px;
+    }
+
+    .box5 h1, h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .box6 img{
+        height: 400px;
+    }
+
+    .box7 img{
+        height: 350px;
+        padding-bottom: 40px;
+    }
+
+    .box8 h1, h2{
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .backgroundfundo h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+    }
+
+
+    .backgroundfundo input, button{
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 1000px) {
+
+.topo{
+    position: relative;
+    height: 30px;
+    top: 10px;
+}
+
+    .backgroundfundo h1{
+        font-size: 30px;
+    }
+    .backgroundfundo h2{
+        font-size: 25px;
+        position: relative;
+        flex-direction: column;
+        justify-content: space-between;
+        top: 330px;
+       
+    }
+    .backgroundfundo h3{
+        font-size: 25px;
+        
+    }
+    .backgroundfundo input{
+        margin-top: 50px;
+        width: 80%;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .backgroundfundo button{
+        margin-top: 120px;
+        width: 50%;
+        margin-left: -55px;
+        font-size: 20px;
+    }
+
+    
+
+    .box1 h1,h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .box2 img{
+        height: 250px;
+    }
+
+    .box3 img{
+        height: 250px;
+    }
+
+    .box4 h1, h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+    }
+
+
+    .box6 img{
+        height: 250px;
+    }
+
+    .box5 h1, h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .box7 img{
+        height: 250px;
+    }
+
+    .box8 h1, h2{
+        font-size: 20px;
+    }
+.perguntas{
+
+}
+    .perguntas p{
+        font-size: 30px;
+    }
+
+    .perguntas h1{
+        font-size: 20px;
+        width: 500px;
+        
+    }
+
+    .answer{
+        width: 500px;
+    }
+  
+  }
+
+@media only screen and (max-width: 550px) {
+    #btn-planos {
+        font-size: 15px;
+        display: inline-block;
+    }
+    #btn-planos span{
+        font-size: 15px;
+    }
+    #btn-saiba{
+        font-size: 15px;
+        display: inline-block;
+    }
+
+    .backgroundfundo h1{
+        font-size: 30px;
+    }
+    .backgroundfundo h2{
+        font-size: 20px;
+        position: relative;
+        flex-direction: column;
+        justify-content: space-between;
+        top: 420px;
+    }
+    .backgroundfundo h3{
+        font-size: 20px;
+        position: relative;
+        flex-direction: column;
+        justify-content: space-between;
+       
+
+    }
+
+    .backgroundfundo input{
+        margin-top: 50px;
+        width: 80%;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .backgroundfundo button{
+        margin-top: 120px;
+        width: 50%;
+        margin-left: -30px;
+        font-size: 20px;
+    }
+
+    #logonetflix{
+        margin-left: -5px;
+    }
+    
+    .conteudo{
+        flex-direction: column;
+    }
+
+    .box1 h1,h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+        margin: 30px 0px 0px 0px;
+    }
+
+    .box2 img{
+        height: 300px;
+        
+    }
+
+    .conteudo2{
+        flex-direction: column;
+    }
+    .box3 img{
+        height: 300px;
+        
+    }
+
+    .box4 h1, h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 30px;
+        
+    }
+
+
+    .conteudo3{
+        flex-direction: column;
+    }
+
+    .box6 img{
+        height: 300px;
+    }
+   
+    .box5 h1, h2{
+        font-size: 20px;
+        margin-top: 30px;
+
+    }
+
+    .topo{
+        position: relative;
+        justify-content: space-between;
+        height: 10px;
+        top: 15px;
+
+    }
+
+    #btn-saiba{
+        width: 40px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .perguntas p {
+        font-size: 30px;
+    }
+
+    .perguntas h1{
+        width: 500px;
+    }
+
+    .answer{
+        width: 500px;
+    }
+}
+
+
+
+@media only screen and (min-width: 310px) and (max-width: 550px){
+ 
+ 
+
+    .backgroundfundo h1{
+        font-size: 25px;
+        padding-bottom: 30px;
+    }
+    .backgroundfundo h2{
+        font-size: 20px;
+        position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 330px;
+ 
+    }
+    .backgroundfundo h3{
+        font-size: 20px;
+        position: relative;
+        flex-direction: column;
+        justify-content: space-between;
+        top: 320px;
+        
+    }
+    .box2 img{
+        height: 200px;
+    }
+    .box3 img{
+        height: 200px;
+    }
+
+    .box6 img{
+        height: 200px;
+    }
+
+    .box5 h1, h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .box7 img{
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .conteudo4{
+        flex-direction: column;
+    }
+
+    #btn-planos{
+        font-size: 12px;
+    }
+
+    .perguntas p {
+        font-size: 30px;
+    }
+
+    .perguntas h1{
+        width: 300px;
+    }
+
+    .answer{
+        width: 300px;
+    }
+}
+

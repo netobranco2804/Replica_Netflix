@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css.css">
+  <link rel="stylesheet" href="responsividade.css">
+  <title>Netfliiixxxxx</title>
+</head>
+<body>
+  <div class="container">
+<div class="topo">
+  <h1 id="btn-novidade">NOVIDADE!</h1>
+  <h1 id="btn-planos">Planos a partir de <span>R$18,90</span></h1>
+  <a href=""><p id="btn-saiba">Saiba Mais ></p></a>
+</div>
+<div class="backgroundfundo">
+  <img id="logonetflix" src="netflix.png" alt="LogoNetFlix">
+
+  <center>
+  <h1>Filmes, séries e muito mais. Sem limites.</h1>
+</center>
+<center>
+  <h2>Assista onde quiser. Cancele quando quiser.</h2>
+</center>
+<center>
+  <h3>Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
+</center>
+<center>
+<input type="text" placeholder="E-mail"><button>Vamos la ></button>
+</center>
+</div>
+ <div class="separacao"></div>
+<div class="conteudo">
+  <div class="box1">
+    <h1>Aproveite na TV.</h1>
+    <h2>Assista em Smart TVs, PlayStation, Xbox, Chromecast,<br> Apple TV, aparelhos de Blu-ray e outros dispositivos.</h2>
+  </div>
+  <div class="box2">
+  <img src="img/tv2.png" alt="">
+  </div>
+</div>
+<div class="separacao"></div>
+<div class="conteudo2">
+  <div class="box3">
+    <img src="img/tv.png" alt="">
+  </div>
+  <div class="box4">
+    <h1>Assista quando quiser.</h1>
+    <h2>Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso.</h2>
+  </div>
+</div>
+<div class="separacao"></div>
+<div class="conteudo3">
+  <div class="box5">
+    <h1>Crie perfis para crianças.</h1>
+    <h2>Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso.</h2>
+  </div>
+  <div class="box6">
+    <img src="img/img3.png" alt="">
+  </div>
+</div>
+<div class="separacao"></div>
+<div class="conteudo4">
+  <div class="box7">
+    <img src="img/img4.jpg" alt="">
+  </div>
+  <div class="box8">
+    <h1>Baixe séries para assistir<br> offline.</h1>
+    <h2>Disponíveis somente em planos sem anúncios.</h2>
+  </div>
+</div>
+<div class="separacao"></div>
+<div class="perguntas">
+  <p>Perguntas Frequentes</p>
+  <ul>
+    <li>
+      <h1>O que é Netflix?</h1>
+      <div class="answer">
+        A Netflix é um serviço de streaming que oferece uma ampla variedade de séries, filmes e documentários premiados em milhares de aparelhos conectados à internet.
+
+Você pode assistir a quantos filmes e séries quiser, quando e onde quiser – tudo por um preço mensal acessível. Aqui você sempre encontra novidades. A cada semana, adicionamos novas séries e filmes.
+      </div>
+    </li>
+    <li>
+      <h1>Quanto custa os planos da Netflix?</h1>
+      <div class="answer">
+        Assista à Netflix no seu celular, tablet, Smart TV, notebook ou aparelho de streaming por uma taxa mensal única. Os planos variam de R$18,90 a R$55,90 por mês. Sem contrato nem taxas extras.
+      </div>
+    </li>
+  </ul>
+</div>
+</div>
+
+
+
+<script>
+ const headers = document.querySelectorAll("h1");
+
+headers.forEach(header => {
+  header.addEventListener("click", () => {
+    const answer = header.nextElementSibling;
+    const openAnswers = document.querySelectorAll(".answer:not([style='display: none;'])");
+    openAnswers.forEach(openAnswer => {
+      openAnswer.style.display = "none";
+    });
+    answer.style.display = answer.style.display === "none" ? "block" : "none";
+  });
+});
+
+
+</script>
+
+</body>
+</html>
